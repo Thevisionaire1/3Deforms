@@ -1,0 +1,29 @@
+[bootstrap]
+main_collection = /main/main.collectionc
+
+[script]
+shared_state = 1
+
+[display]
+width = 960
+height = 640
+high_dpi = 1
+
+[android]
+input_method = HiddenInputField
+
+[project]
+title = 3Deforms
+version = 0.1
+developer = Visionaire
+
+[physics]
+type = 3D
+gravity_y = -9.8
+
+[render]
+clear_color_red = 0.67
+clear_color_green = 0.8
+clear_color_blue = 0.95
+clear_color_alpha = 1.0
+

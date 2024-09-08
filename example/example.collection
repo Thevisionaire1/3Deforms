@@ -1,0 +1,322 @@
+name: "example"
+scale_along_z: 0
+embedded_instances {
+  id: "go"
+  children: "go1"
+  children: "go13"
+  children: "go2"
+  data: ""
+}
+embedded_instances {
+  id: "go1"
+  data: "embedded_components {\n"
+  "  id: \"model\"\n"
+  "  type: \"model\"\n"
+  "  data: \"mesh: \\\"/assets/3Deforms/glTF_forms/plane2x2.glb\\\"\\n"
+  "name: \\\"{{NAME}}\\\"\\n"
+  "materials {\\n"
+  "  name: \\\"Material\\\"\\n"
+  "  material: \\\"/materials/base/model.material\\\"\\n"
+  "  textures {\\n"
+  "    sampler: \\\"tex0\\\"\\n"
+  "    texture: \\\"/assets/3Deforms/prototype_textures/1024x1024_texture_yellow.png\\\"\\n"
+  "  }\\n"
+  "}\\n"
+  "\"\n"
+  "}\n"
+  ""
+  scale3 {
+    x: 7.0
+    y: 7.0
+    z: 7.0
+  }
+}
+embedded_instances {
+  id: "go2"
+  children: "go10"
+  children: "go11"
+  children: "go12"
+  children: "go3"
+  children: "go4"
+  children: "go5"
+  children: "go6"
+  children: "go7"
+  children: "go8"
+  children: "go9"
+  data: ""
+}
+embedded_instances {
+  id: "go3"
+  data: "embedded_components {\n"
+  "  id: \"model\"\n"
+  "  type: \"model\"\n"
+  "  data: \"mesh: \\\"/assets/3Deforms/DAE_forms/monkey.dae\\\"\\n"
+  "name: \\\"{{NAME}}\\\"\\n"
+  "materials {\\n"
+  "  name: \\\"default\\\"\\n"
+  "  material: \\\"/materials/base/model.material\\\"\\n"
+  "  textures {\\n"
+  "    sampler: \\\"tex0\\\"\\n"
+  "    texture: \\\"/assets/3Deforms/prototype_textures/1024x1024_texture_orange.png\\\"\\n"
+  "  }\\n"
+  "}\\n"
+  "\"\n"
+  "}\n"
+  ""
+  position {
+    y: 1.0
+  }
+}
+embedded_instances {
+  id: "go4"
+  data: "embedded_components {\n"
+  "  id: \"model\"\n"
+  "  type: \"model\"\n"
+  "  data: \"mesh: \\\"/assets/3Deforms/DAE_forms/cube.dae\\\"\\n"
+  "name: \\\"{{NAME}}\\\"\\n"
+  "materials {\\n"
+  "  name: \\\"default\\\"\\n"
+  "  material: \\\"/materials/base/model.material\\\"\\n"
+  "  textures {\\n"
+  "    sampler: \\\"tex0\\\"\\n"
+  "    texture: \\\"/assets/3Deforms/prototype_textures/1024x1024_texture_purple.png\\\"\\n"
+  "  }\\n"
+  "}\\n"
+  "\"\n"
+  "}\n"
+  ""
+  position {
+    x: -2.0
+    y: 0.5
+  }
+}
+embedded_instances {
+  id: "go5"
+  data: "embedded_components {\n"
+  "  id: \"model\"\n"
+  "  type: \"model\"\n"
+  "  data: \"mesh: \\\"/assets/3Deforms/DAE_forms/roundcube.dae\\\"\\n"
+  "name: \\\"{{NAME}}\\\"\\n"
+  "materials {\\n"
+  "  name: \\\"default\\\"\\n"
+  "  material: \\\"/materials/base/model.material\\\"\\n"
+  "  textures {\\n"
+  "    sampler: \\\"tex0\\\"\\n"
+  "    texture: \\\"/assets/3Deforms/prototype_textures/1024x1024_texture_blue.png\\\"\\n"
+  "  }\\n"
+  "}\\n"
+  "\"\n"
+  "}\n"
+  ""
+  position {
+    x: 2.0
+    y: 0.5
+  }
+}
+embedded_instances {
+  id: "go6"
+  data: "embedded_components {\n"
+  "  id: \"model\"\n"
+  "  type: \"model\"\n"
+  "  data: \"mesh: \\\"/assets/3Deforms/DAE_forms/sphere.dae\\\"\\n"
+  "name: \\\"{{NAME}}\\\"\\n"
+  "materials {\\n"
+  "  name: \\\"default\\\"\\n"
+  "  material: \\\"/materials/base/model.material\\\"\\n"
+  "  textures {\\n"
+  "    sampler: \\\"tex0\\\"\\n"
+  "    texture: \\\"/assets/3Deforms/prototype_textures/1024x1024_texture_grey.png\\\"\\n"
+  "  }\\n"
+  "}\\n"
+  "\"\n"
+  "}\n"
+  ""
+  position {
+    x: -1.25
+    y: 0.5
+    z: 2.0
+  }
+}
+embedded_instances {
+  id: "go7"
+  data: "embedded_components {\n"
+  "  id: \"model\"\n"
+  "  type: \"model\"\n"
+  "  data: \"mesh: \\\"/assets/3Deforms/DAE_forms/cone.dae\\\"\\n"
+  "name: \\\"{{NAME}}\\\"\\n"
+  "materials {\\n"
+  "  name: \\\"default\\\"\\n"
+  "  material: \\\"/materials/base/model.material\\\"\\n"
+  "  textures {\\n"
+  "    sampler: \\\"tex0\\\"\\n"
+  "    texture: \\\"/assets/3Deforms/prototype_textures/1024x1024_texture_red.png\\\"\\n"
+  "  }\\n"
+  "}\\n"
+  "\"\n"
+  "}\n"
+  ""
+  position {
+    x: 1.25
+    y: 0.5
+    z: 2.0
+  }
+}
+embedded_instances {
+  id: "go8"
+  data: "embedded_components {\n"
+  "  id: \"model\"\n"
+  "  type: \"model\"\n"
+  "  data: \"mesh: \\\"/assets/3Deforms/DAE_forms/plane2x2.dae\\\"\\n"
+  "name: \\\"{{NAME}}\\\"\\n"
+  "materials {\\n"
+  "  name: \\\"default\\\"\\n"
+  "  material: \\\"/materials/base/model.material\\\"\\n"
+  "  textures {\\n"
+  "    sampler: \\\"tex0\\\"\\n"
+  "    texture: \\\"/assets/3Deforms/prototype_textures/1024x1024_texture_brown.png\\\"\\n"
+  "  }\\n"
+  "}\\n"
+  "\"\n"
+  "}\n"
+  ""
+  position {
+    y: 1.0
+    z: -2.0
+  }
+  rotation {
+    x: 0.70710677
+    w: 0.70710677
+  }
+}
+embedded_instances {
+  id: "go9"
+  data: "embedded_components {\n"
+  "  id: \"model\"\n"
+  "  type: \"model\"\n"
+  "  data: \"mesh: \\\"/assets/3Deforms/DAE_forms/capsule.dae\\\"\\n"
+  "name: \\\"{{NAME}}\\\"\\n"
+  "materials {\\n"
+  "  name: \\\"default\\\"\\n"
+  "  material: \\\"/materials/base/model.material\\\"\\n"
+  "  textures {\\n"
+  "    sampler: \\\"tex0\\\"\\n"
+  "    texture: \\\"/assets/3Deforms/prototype_textures/1024x1024_texture_black.png\\\"\\n"
+  "  }\\n"
+  "}\\n"
+  "\"\n"
+  "}\n"
+  ""
+  position {
+    x: -1.5
+    y: 1.0
+    z: -1.0
+  }
+}
+embedded_instances {
+  id: "go10"
+  data: "embedded_components {\n"
+  "  id: \"model\"\n"
+  "  type: \"model\"\n"
+  "  data: \"mesh: \\\"/assets/3Deforms/DAE_forms/cylinder.dae\\\"\\n"
+  "name: \\\"{{NAME}}\\\"\\n"
+  "materials {\\n"
+  "  name: \\\"default\\\"\\n"
+  "  material: \\\"/materials/base/model.material\\\"\\n"
+  "  textures {\\n"
+  "    sampler: \\\"tex0\\\"\\n"
+  "    texture: \\\"/assets/3Deforms/prototype_textures/1024x1024_texture_green.png\\\"\\n"
+  "  }\\n"
+  "}\\n"
+  "\"\n"
+  "}\n"
+  ""
+  position {
+    x: 1.5
+    y: 1.0
+    z: -1.0
+  }
+}
+embedded_instances {
+  id: "go11"
+  data: "embedded_components {\n"
+  "  id: \"model\"\n"
+  "  type: \"model\"\n"
+  "  data: \"mesh: \\\"/assets/3Deforms/DAE_forms/torus.dae\\\"\\n"
+  "name: \\\"{{NAME}}\\\"\\n"
+  "materials {\\n"
+  "  name: \\\"default\\\"\\n"
+  "  material: \\\"/materials/base/model.material\\\"\\n"
+  "  textures {\\n"
+  "    sampler: \\\"tex0\\\"\\n"
+  "    texture: \\\"/assets/3Deforms/prototype_textures/1024x1024_texture_yellow.png\\\"\\n"
+  "  }\\n"
+  "}\\n"
+  "\"\n"
+  "}\n"
+  ""
+  position {
+    y: 0.5
+    z: -1.25
+  }
+  rotation {
+    x: 0.3007058
+    w: 0.95371693
+  }
+}
+embedded_instances {
+  id: "go12"
+  data: "embedded_components {\n"
+  "  id: \"model\"\n"
+  "  type: \"model\"\n"
+  "  data: \"mesh: \\\"/assets/3Deforms/DAE_forms/plane.dae\\\"\\n"
+  "name: \\\"{{NAME}}\\\"\\n"
+  "materials {\\n"
+  "  name: \\\"default\\\"\\n"
+  "  material: \\\"/materials/base/model.material\\\"\\n"
+  "  textures {\\n"
+  "    sampler: \\\"tex0\\\"\\n"
+  "    texture: \\\"/assets/3Deforms/prototype_textures/1024x1024_texture_white.png\\\"\\n"
+  "  }\\n"
+  "}\\n"
+  "\"\n"
+  "}\n"
+  ""
+  position {
+    y: 0.2
+  }
+  rotation {
+    x: 0.17364818
+    w: 0.9848077
+  }
+}
+embedded_instances {
+  id: "go13"
+  data: "embedded_components {\n"
+  "  id: \"model\"\n"
+  "  type: \"model\"\n"
+  "  data: \"mesh: \\\"/assets/3Deforms/glTF_forms/plane2x2.glb\\\"\\n"
+  "name: \\\"{{NAME}}\\\"\\n"
+  "materials {\\n"
+  "  name: \\\"Material\\\"\\n"
+  "  material: \\\"/materials/base/model.material\\\"\\n"
+  "  textures {\\n"
+  "    sampler: \\\"tex0\\\"\\n"
+  "    texture: \\\"/assets/3Deforms/prototype_textures/1024x1024_texture_yellow.png\\\"\\n"
+  "  }\\n"
+  "}\\n"
+  "\"\n"
+  "}\n"
+  ""
+  position {
+    z: -4.0
+  }
+  rotation {
+    x: 0.70710677
+    w: 0.70710677
+  }
+  scale3 {
+    x: 7.0
+    y: 7.0
+    z: 7.0
+  }
+}
